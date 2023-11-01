@@ -31,6 +31,7 @@ int main(void) {
     while (start < text_len)
         start += shift(sample, text[compare(text, sample, start)]);
     
+    free(text);
     return 0;
 }
 
