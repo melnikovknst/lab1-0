@@ -45,7 +45,7 @@ int compare(char* text, char* sample, int start) {
             return start;
     }
     
-    return start;
+    return start - sample_len;
 }
 
 
